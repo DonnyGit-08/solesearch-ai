@@ -1,6 +1,8 @@
+# CPU-only PyTorch: much smaller than the default GPU build, and all the app needs
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+torchvision
 streamlit>=1.40
-torch>=2.3
-torchvision>=0.18
 numpy
 pandas
 pillow

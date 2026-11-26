@@ -10,8 +10,8 @@ import pandas as pd
 import streamlit as st
 from PIL import Image, ImageOps
 
-from core.catalog import Catalog
-from core.closet import Closet
+from catalog import Catalog
+from closet import Closet
 
 ROOT = Path(__file__).parent
 MODEL_PATH = ROOT / "models" / "solesearch_effnet_b0.pt"
@@ -28,13 +28,13 @@ st.set_page_config(page_title="SoleSearch AI", page_icon="👟", layout="wide")
 # ---------- shared resources (loaded once, then reused across reruns) ----------
 @st.cache_resource(show_spinner="Loading the AI model...")
 def load_model():
-    from core.model import SneakerModel  # imported here so the closet works even without torch
+    from model import SneakerModel  # imported here so the closet works even without torch
     return SneakerModel(MODEL_PATH)
 
 
 @st.cache_resource(show_spinner="Indexing colorway reference photos (first run only)...")
 def load_matcher(_model):
-    from core.matcher import ColorwayMatcher
+    from matcher import ColorwayMatcher
     return ColorwayMatcher(GALLERY_DIR, DATA_DIR / "gallery_index.npz", _model.analyze)
 
 
