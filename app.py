@@ -14,8 +14,9 @@ from catalog import Catalog
 from closet import Closet
 
 ROOT = Path(__file__).parent
-MODEL_PATH = ROOT / "models" / "solesearch_effnet_b0.pt"
-MODELS_DIR = ROOT / "models"
+# Model files can live in a "models" folder or at the top level of the repo
+MODELS_DIR = ROOT / "models" if (ROOT / "models" / "solesearch_effnet_b0.pt").exists() else ROOT
+MODEL_PATH = MODELS_DIR / "solesearch_effnet_b0.pt"
 GALLERY_DIR = ROOT / "gallery"
 DATA_DIR = ROOT / "data"
 CONDITIONS = ["New / deadstock", "Like new", "Used - good", "Used - well worn"]
