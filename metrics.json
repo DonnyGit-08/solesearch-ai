@@ -1,0 +1,134 @@
+{
+ "test_top1_accuracy": 0.8947368421052632,
+ "test_top3_accuracy": 0.9824561403508771,
+ "best_val_accuracy": 0.8830409356725146,
+ "confidence_threshold": 0.6,
+ "num_images": {
+  "train": 798,
+  "val": 171,
+  "test": 171
+ },
+ "class_names": [
+  "adidas_samba",
+  "air_jordan_1",
+  "air_jordan_4",
+  "new_balance_550",
+  "nike_air_force_1",
+  "nike_dunk_low",
+  "yeezy_boost_350"
+ ],
+ "history": [
+  {
+   "phase": "head",
+   "train_loss": 1.843150600454861,
+   "train_acc": 0.3107769423558897,
+   "val_loss": 1.6469555117233454,
+   "val_acc": 0.49122807017543857
+  },
+  {
+   "phase": "head",
+   "train_loss": 1.5516827898216725,
+   "train_acc": 0.5213032581453634,
+   "val_loss": 1.4946081380397953,
+   "val_acc": 0.5380116959064327
+  },
+  {
+   "phase": "head",
+   "train_loss": 1.4609695236784475,
+   "train_acc": 0.5714285714285714,
+   "val_loss": 1.461920494224593,
+   "val_acc": 0.5263157894736842
+  },
+  {
+   "phase": "finetune",
+   "train_loss": 1.2583631232268828,
+   "train_acc": 0.6303258145363408,
+   "val_loss": 1.0693776042837846,
+   "val_acc": 0.6842105263157895
+  },
+  {
+   "phase": "finetune",
+   "train_loss": 0.9171532065348518,
+   "train_acc": 0.7305764411027569,
+   "val_loss": 0.7754462528647038,
+   "val_acc": 0.7368421052631579
+  },
+  {
+   "phase": "finetune",
+   "train_loss": 0.6817337156537183,
+   "train_acc": 0.793233082706767,
+   "val_loss": 0.609190010885049,
+   "val_acc": 0.8187134502923976
+  },
+  {
+   "phase": "finetune",
+   "train_loss": 0.523937856045582,
+   "train_acc": 0.8233082706766918,
+   "val_loss": 0.5071790406578466,
+   "val_acc": 0.8128654970760234
+  },
+  {
+   "phase": "finetune",
+   "train_loss": 0.43321066288123455,
+   "train_acc": 0.8634085213032582,
+   "val_loss": 0.44129102498467204,
+   "val_acc": 0.8713450292397661
+  },
+  {
+   "phase": "finetune",
+   "train_loss": 0.3156826747091193,
+   "train_acc": 0.8859649122807017,
+   "val_loss": 0.4098162088129256,
+   "val_acc": 0.847953216374269
+  },
+  {
+   "phase": "finetune",
+   "train_loss": 0.2634927004501037,
+   "train_acc": 0.9210526315789473,
+   "val_loss": 0.3834551912650727,
+   "val_acc": 0.8771929824561403
+  },
+  {
+   "phase": "finetune",
+   "train_loss": 0.24399325191825255,
+   "train_acc": 0.9210526315789473,
+   "val_loss": 0.3628937185507769,
+   "val_acc": 0.8654970760233918
+  },
+  {
+   "phase": "finetune",
+   "train_loss": 0.1983333990575377,
+   "train_acc": 0.9461152882205514,
+   "val_loss": 0.35230517544244466,
+   "val_acc": 0.8830409356725146
+  },
+  {
+   "phase": "finetune",
+   "train_loss": 0.19035553297303373,
+   "train_acc": 0.9411027568922306,
+   "val_loss": 0.36056029622317753,
+   "val_acc": 0.8771929824561403
+  },
+  {
+   "phase": "finetune",
+   "train_loss": 0.18038924848824217,
+   "train_acc": 0.9461152882205514,
+   "val_loss": 0.343627730482503,
+   "val_acc": 0.8713450292397661
+  },
+  {
+   "phase": "finetune",
+   "train_loss": 0.1659132846091923,
+   "train_acc": 0.9473684210526315,
+   "val_loss": 0.3373172800791891,
+   "val_acc": 0.8830409356725146
+  },
+  {
+   "phase": "finetune",
+   "train_loss": 0.15579967152205923,
+   "train_acc": 0.9523809523809523,
+   "val_loss": 0.3340307371309626,
+   "val_acc": 0.8830409356725146
+  }
+ ]
+}
