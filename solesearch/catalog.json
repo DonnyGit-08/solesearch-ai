@@ -1,0 +1,189 @@
+{
+  "_how_to_fill": "Keys must match folder names (train_data/<model>, gallery/<model>/<colorway>). Fill sku, release_date (YYYY-MM-DD), retail_price_usd and source (the URL you verified it on). Leave a fact null if you can't verify it; the app shows 'Not verified'.",
+  "air_jordan_1": {
+    "brand": "Jordan",
+    "name": "Air Jordan 1",
+    "description": "Michael Jordan's first signature shoe, introduced in 1985.",
+    "colorways": {
+      "chicago": {
+        "name": "Chicago",
+        "sku": null,
+        "release_date": null,
+        "retail_price_usd": null,
+        "source": null
+      },
+      "bred": {
+        "name": "Bred",
+        "sku": null,
+        "release_date": null,
+        "retail_price_usd": null,
+        "source": null
+      },
+      "royal": {
+        "name": "Royal",
+        "sku": null,
+        "release_date": null,
+        "retail_price_usd": null,
+        "source": null
+      }
+    }
+  },
+  "air_jordan_4": {
+    "brand": "Jordan",
+    "name": "Air Jordan 4",
+    "description": "Designed by Tinker Hatfield and released in 1989, known for its mesh panels and 'wings'.",
+    "colorways": {
+      "white_cement": {
+        "name": "White Cement",
+        "sku": null,
+        "release_date": null,
+        "retail_price_usd": null,
+        "source": null
+      },
+      "military_black": {
+        "name": "Military Black",
+        "sku": null,
+        "release_date": null,
+        "retail_price_usd": null,
+        "source": null
+      },
+      "black_cat": {
+        "name": "Black Cat",
+        "sku": null,
+        "release_date": null,
+        "retail_price_usd": null,
+        "source": null
+      }
+    }
+  },
+  "nike_dunk_low": {
+    "brand": "Nike",
+    "name": "Nike Dunk Low",
+    "description": "Originally a 1985 college basketball shoe, now one of Nike's most popular lifestyle sneakers.",
+    "colorways": {
+      "panda": {
+        "name": "Panda (White/Black)",
+        "sku": null,
+        "release_date": null,
+        "retail_price_usd": null,
+        "source": null
+      },
+      "grey_fog": {
+        "name": "Grey Fog",
+        "sku": null,
+        "release_date": null,
+        "retail_price_usd": null,
+        "source": null
+      }
+    }
+  },
+  "nike_sb_dunk": {
+    "brand": "Nike",
+    "name": "Nike SB Dunk",
+    "description": "The skateboarding version of the Dunk, launched under Nike SB in 2002, with a padded tongue and Zoom Air insole.",
+    "colorways": {}
+  },
+  "nike_air_force_1": {
+    "brand": "Nike",
+    "name": "Nike Air Force 1",
+    "description": "Introduced in 1982 as the first basketball shoe with Nike Air cushioning.",
+    "colorways": {
+      "triple_white": {
+        "name": "Triple White",
+        "sku": null,
+        "release_date": null,
+        "retail_price_usd": null,
+        "source": null
+      },
+      "triple_black": {
+        "name": "Triple Black",
+        "sku": null,
+        "release_date": null,
+        "retail_price_usd": null,
+        "source": null
+      }
+    }
+  },
+  "yeezy_boost_350": {
+    "brand": "Adidas",
+    "name": "Adidas Yeezy Boost 350",
+    "description": "Low-top Yeezy model with a Primeknit upper and Boost midsole, first released in 2015.",
+    "colorways": {
+      "zebra": {
+        "name": "Zebra",
+        "sku": null,
+        "release_date": null,
+        "retail_price_usd": null,
+        "source": null
+      },
+      "bred": {
+        "name": "Bred",
+        "sku": null,
+        "release_date": null,
+        "retail_price_usd": null,
+        "source": null
+      },
+      "onyx": {
+        "name": "Onyx",
+        "sku": null,
+        "release_date": null,
+        "retail_price_usd": null,
+        "source": null
+      }
+    }
+  },
+  "adidas_samba": {
+    "brand": "Adidas",
+    "name": "Adidas Samba",
+    "description": "Created as an indoor soccer shoe around 1950 and now a lifestyle staple, recognizable by its T-toe and gum sole.",
+    "colorways": {
+      "white_black": {
+        "name": "White / Black / Gum",
+        "sku": null,
+        "release_date": null,
+        "retail_price_usd": null,
+        "source": null
+      },
+      "black_white": {
+        "name": "Black / White / Gum",
+        "sku": null,
+        "release_date": null,
+        "retail_price_usd": null,
+        "source": null
+      }
+    }
+  },
+  "new_balance_550": {
+    "brand": "New Balance",
+    "name": "New Balance 550",
+    "description": "A 1989 basketball shoe revived in 2020 that became a lifestyle favorite.",
+    "colorways": {
+      "white_green": {
+        "name": "White / Green",
+        "sku": null,
+        "release_date": null,
+        "retail_price_usd": null,
+        "source": null
+      },
+      "white_grey": {
+        "name": "White / Grey",
+        "sku": null,
+        "release_date": null,
+        "retail_price_usd": null,
+        "source": null
+      }
+    }
+  },
+  "new_balance_9060": {
+    "brand": "New Balance",
+    "name": "New Balance 9060",
+    "description": "A chunky lifestyle runner from the 2020s inspired by New Balance's 99X series.",
+    "colorways": {}
+  },
+  "asics_gel_kayano": {
+    "brand": "ASICS",
+    "name": "ASICS Gel-Kayano",
+    "description": "ASICS' long-running stability running line, first released in 1993; retro versions like the Gel-Kayano 14 are popular lifestyle picks.",
+    "colorways": {}
+  }
+}

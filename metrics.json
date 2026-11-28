@@ -1,134 +1,153 @@
 {
- "test_top1_accuracy": 0.8947368421052632,
- "test_top3_accuracy": 0.9824561403508771,
- "best_val_accuracy": 0.8830409356725146,
+ "test_top1_accuracy": 0.9189645469893079,
+ "test_top3_accuracy": 0.9715813168261114,
+ "best_val_accuracy": 0.9231635237827188,
  "confidence_threshold": 0.6,
  "num_images": {
-  "train": 798,
-  "val": 171,
-  "test": 171
+  "train": 16581,
+  "val": 3553,
+  "test": 3554
  },
  "class_names": [
+  "adidas_forum",
+  "adidas_gazelle",
+  "adidas_nmd",
   "adidas_samba",
+  "adidas_stan_smith",
+  "adidas_superstar",
+  "adidas_ultraboost",
   "air_jordan_1",
+  "air_jordan_11",
+  "air_jordan_12",
+  "air_jordan_13",
+  "air_jordan_3",
   "air_jordan_4",
+  "air_jordan_5",
+  "air_jordan_6",
+  "asics_gel_kayano",
+  "asics_gel_lyte_iii",
+  "converse_chuck_70",
+  "converse_chuck_taylor",
+  "new_balance_2002r",
+  "new_balance_327",
   "new_balance_550",
+  "new_balance_574",
+  "new_balance_9060",
+  "new_balance_990",
+  "new_balance_992",
   "nike_air_force_1",
-  "nike_dunk_low",
-  "yeezy_boost_350"
+  "nike_air_huarache",
+  "nike_air_max_1",
+  "nike_air_max_270",
+  "nike_air_max_90",
+  "nike_air_max_95",
+  "nike_air_max_97",
+  "nike_blazer",
+  "nike_cortez",
+  "nike_dunk_high",
+  "nike_sb_dunk",
+  "nike_vapormax",
+  "puma_suede",
+  "reebok_club_c",
+  "vans_old_skool",
+  "vans_sk8_hi",
+  "vans_slip_on",
+  "yeezy_500",
+  "yeezy_700",
+  "yeezy_boost_350",
+  "yeezy_slide"
  ],
  "history": [
   {
    "phase": "head",
-   "train_loss": 1.843150600454861,
-   "train_acc": 0.3107769423558897,
-   "val_loss": 1.6469555117233454,
-   "val_acc": 0.49122807017543857
+   "train_loss": 2.7480121709405925,
+   "train_acc": 0.362101200168868,
+   "val_loss": 1.9796827193753268,
+   "val_acc": 0.5572755417956656
   },
   {
    "phase": "head",
-   "train_loss": 1.5516827898216725,
-   "train_acc": 0.5213032581453634,
-   "val_loss": 1.4946081380397953,
-   "val_acc": 0.5380116959064327
-  },
-  {
-   "phase": "head",
-   "train_loss": 1.4609695236784475,
-   "train_acc": 0.5714285714285714,
-   "val_loss": 1.461920494224593,
-   "val_acc": 0.5263157894736842
+   "train_loss": 1.9774613490719235,
+   "train_acc": 0.5192087328870394,
+   "val_loss": 1.7498513159535818,
+   "val_acc": 0.5944272445820433
   },
   {
    "phase": "finetune",
-   "train_loss": 1.2583631232268828,
-   "train_acc": 0.6303258145363408,
-   "val_loss": 1.0693776042837846,
-   "val_acc": 0.6842105263157895
+   "train_loss": 1.1103030003049636,
+   "train_acc": 0.6965201133827875,
+   "val_loss": 0.6534165727431225,
+   "val_acc": 0.8190261750633268
   },
   {
    "phase": "finetune",
-   "train_loss": 0.9171532065348518,
-   "train_acc": 0.7305764411027569,
-   "val_loss": 0.7754462528647038,
-   "val_acc": 0.7368421052631579
+   "train_loss": 0.5931761257036353,
+   "train_acc": 0.8332428683432845,
+   "val_loss": 0.4410431091211025,
+   "val_acc": 0.8741908246552209
   },
   {
    "phase": "finetune",
-   "train_loss": 0.6817337156537183,
-   "train_acc": 0.793233082706767,
-   "val_loss": 0.609190010885049,
-   "val_acc": 0.8187134502923976
+   "train_loss": 0.39327365797428465,
+   "train_acc": 0.8861950425185453,
+   "val_loss": 0.3726783853968935,
+   "val_acc": 0.8922037714607374
   },
   {
    "phase": "finetune",
-   "train_loss": 0.523937856045582,
-   "train_acc": 0.8233082706766918,
-   "val_loss": 0.5071790406578466,
-   "val_acc": 0.8128654970760234
+   "train_loss": 0.2893896351482632,
+   "train_acc": 0.9154453893010072,
+   "val_loss": 0.32333733052090796,
+   "val_acc": 0.9009287925696594
   },
   {
    "phase": "finetune",
-   "train_loss": 0.43321066288123455,
-   "train_acc": 0.8634085213032582,
-   "val_loss": 0.44129102498467204,
-   "val_acc": 0.8713450292397661
+   "train_loss": 0.22459646177467293,
+   "train_acc": 0.933779627284241,
+   "val_loss": 0.29839391948939914,
+   "val_acc": 0.9107796228539262
   },
   {
    "phase": "finetune",
-   "train_loss": 0.3156826747091193,
-   "train_acc": 0.8859649122807017,
-   "val_loss": 0.4098162088129256,
-   "val_acc": 0.847953216374269
+   "train_loss": 0.18214255898128653,
+   "train_acc": 0.9472890657982027,
+   "val_loss": 0.2729274834666895,
+   "val_acc": 0.9150014072614692
   },
   {
    "phase": "finetune",
-   "train_loss": 0.2634927004501037,
-   "train_acc": 0.9210526315789473,
-   "val_loss": 0.3834551912650727,
-   "val_acc": 0.8771929824561403
+   "train_loss": 0.15235555849937485,
+   "train_acc": 0.9563958747964538,
+   "val_loss": 0.2658541583315339,
+   "val_acc": 0.9203490008443569
   },
   {
    "phase": "finetune",
-   "train_loss": 0.24399325191825255,
-   "train_acc": 0.9210526315789473,
-   "val_loss": 0.3628937185507769,
-   "val_acc": 0.8654970760233918
+   "train_loss": 0.13572230698382076,
+   "train_acc": 0.9614016042458235,
+   "val_loss": 0.26673218499698204,
+   "val_acc": 0.9231635237827188
   },
   {
    "phase": "finetune",
-   "train_loss": 0.1983333990575377,
-   "train_acc": 0.9461152882205514,
-   "val_loss": 0.35230517544244466,
-   "val_acc": 0.8830409356725146
+   "train_loss": 0.11827415312366775,
+   "train_acc": 0.9648392738676799,
+   "val_loss": 0.26523856329240164,
+   "val_acc": 0.9209119054320293
   },
   {
    "phase": "finetune",
-   "train_loss": 0.19035553297303373,
-   "train_acc": 0.9411027568922306,
-   "val_loss": 0.36056029622317753,
-   "val_acc": 0.8771929824561403
+   "train_loss": 0.11024489409996455,
+   "train_acc": 0.9686388034497316,
+   "val_loss": 0.25830967650090075,
+   "val_acc": 0.9228820714888827
   },
   {
    "phase": "finetune",
-   "train_loss": 0.18038924848824217,
-   "train_acc": 0.9461152882205514,
-   "val_loss": 0.343627730482503,
-   "val_acc": 0.8713450292397661
-  },
-  {
-   "phase": "finetune",
-   "train_loss": 0.1659132846091923,
-   "train_acc": 0.9473684210526315,
-   "val_loss": 0.3373172800791891,
-   "val_acc": 0.8830409356725146
-  },
-  {
-   "phase": "finetune",
-   "train_loss": 0.15579967152205923,
-   "train_acc": 0.9523809523809523,
-   "val_loss": 0.3340307371309626,
-   "val_acc": 0.8830409356725146
+   "train_loss": 0.1005217883821046,
+   "train_acc": 0.9719558530848562,
+   "val_loss": 0.25778334206790615,
+   "val_acc": 0.9231635237827188
   }
  ]
 }
